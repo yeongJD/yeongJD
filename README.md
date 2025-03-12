@@ -1,5 +1,6 @@
-## Hi there 👋
-
+<div style="display: block; text-align: center;">
+  <img src="yeongJD_profile.gif" alt="Profile Image" style="display: block; margin: 0 auto;">
+</div>
 <!--
 **yeongJD/yeongJD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
