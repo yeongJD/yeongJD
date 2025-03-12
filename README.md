@@ -1,6 +1,9 @@
 <div style="display: block; text-align: center;">
   <img src="yeongJD_profile.gif" alt="Profile Image" style="display: block; margin: 0 auto;">
 </div>
+
+
+![yeongJD's GitHub stats](https://github-readme-stats.vercel.app/api?username=yeongJD&show_icons=true&theme=merko)
 <!--
 **yeongJD/yeongJD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
