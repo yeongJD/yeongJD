@@ -4,8 +4,6 @@
 
 I build across web, mobile, desktop, and backend systems. My focus is not just shipping a feature: it is making the user flow, data model, operator workflow, and release path work together reliably.
 
-[GitHub](https://github.com/yeongJD) · [Tokscale](https://tokscale.ai/u/yeongJD)
-
 ## Currently
 
 - Final-year Industrial Engineering (ITM) student at **Seoul National University of Science and Technology (SeoulTech)**, expected to graduate in February 2027.
@@ -29,12 +27,7 @@ I use AI to accelerate repository exploration, implementation drafts, and review
 
 The same principle guides my AI and automation work: make permissions explicit, contain failure safely, preserve reproducible artifacts, and leave observable evidence.
 
-<a href="https://tokscale.ai/u/yeongJD">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://tokscale.ai/api/embed/yeongJD/svg?template=minimal&color=teal&theme=dark&tokens=compact&cost=compact" />
-    <img src="https://tokscale.ai/api/embed/yeongJD/svg?template=minimal&color=teal&theme=light&tokens=compact&cost=compact" alt="Tokscale public AI coding usage for yeongJD" width="600" />
-  </picture>
-</a>
+<a href="https://tokscale.ai/u/yeongJD"><img alt="Tokscale Stats for @yeongJD" src="https://tokscale.ai/api/embed/yeongJD/svg?template=graph&color=green&rank=percent&tokens=compact&cost=compact" /></a>
 
 ## Core stack
 
