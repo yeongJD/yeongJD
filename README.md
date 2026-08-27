@@ -15,32 +15,32 @@ I build web and mobile products with React, TypeScript, and Flutter, and extend 
 
 Started as a freelance developer, then joined on-site as an intern; the roles overlapped during `2026.07–2026.08`. During the internship, worked on **CoTeacher, OU, and SYM**. Across both engagements, work spanned web, mobile, admin, API contracts, QA, and release validation—including OU payment recovery and operator tooling.
 
-The company repositories are non-public; the links below point to live services.
+Company source code is non-public; the links below point to live services.
 
-## Selected Product Work
+## Product Work at EduU Learning
 
-### [CoTeacher](https://web.coteacher.net) · Financial education platform
+### CoTeacher · Financial education platform · [Live service](https://web.coteacher.net)
 
 `Next.js` · `React` · `TypeScript` · `Django` · `PostgreSQL`
 
 - **Product delivery:** Implemented and verified content, payment, review-queue, and error-state flows across web, mobile, admin, and APIs.
 - **Performance & validation:** On a 100-course synthetic fixture, reduced catalog query count from **202 to 2** and added regression coverage; verified Django 5.2 LTS compatibility by running the existing **8,210-test backend suite**.
 
-### [SYM · 이지언어](https://xn--oh5bh54khzd.com) · Education operations platform
+### SYM · 이지언어 · Education operations platform · [Live service](https://xn--oh5bh54khzd.com)
 
 `React` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Expo`
 
 - **Reliability:** Kept domain writes and outbox registration in one transaction, then moved notification delivery to a retryable worker.
 - **Code review:** Identified preview/commit snapshot drift, inconsistent season-to-student lock ordering, and a missing history-endpoint authorization guard; re-reviewed the fixes before approval.
 
-## Selected Program Projects
+## Program & Hackathon Projects
 
-- **Filient** · SW Maestro 16th Cohort · AI-powered macOS file automation<br>
+- **Filient** · SW Maestro 16th Cohort · macOS file automation<br>
   Built Flutter rule, history, and rollback flows; added macOS integration, localization, and product guides.<br>
   [Product website](https://filient.ai) · [App repository](https://github.com/BlueGreenSWM/Filient_MVP_2) · [Web repository](https://github.com/BlueGreenSWM/Filient_Homepage)
 - **Bridge** · 2026 GDGoC quadS Hackathon, General Track · Parent–child digital usage management<br>
   Built role-specific flows across two Flutter apps and aligned time, mission, and notification contracts with Spring APIs.<br>
-  [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [API](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
+  [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [Backend repository](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
 
 ## Selected technologies
 
