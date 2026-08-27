@@ -90,7 +90,6 @@ Company source code is non-public; the links below point to live services.
   Supported coding education for middle and high school students.
 - **AI Startup Education PBL Instructor** · AI School Up, AND Center · `2026.06–2026.08`<br>
   Led project-based AI entrepreneurship education.
-- [**Flutter Session Instructor**](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5) · GDG on Campus in SeoulTech · `2025.11`
 
 ### Community & Leadership
 
