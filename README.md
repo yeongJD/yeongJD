@@ -6,49 +6,34 @@ I build user-facing products and the systems behind them. I take ownership beyon
 
 ## Experience
 
-- **Contract / Freelance Developer** · `2025–2026` · Approx. 8–9 months<br>
-  Delivered **3 client projects** across commerce and education products.
-- **Startup Product Development Intern** · `2026.07–2026.08`<br>
-  Worked across user-facing features, operations tools, backend contracts, QA, and release verification.
+### EduU Learning
 
-## Selected projects
+- **Software Engineer Intern** · `2026.07–2026.08`
+- **Contract / Freelance Developer** · `2025–2026` · Approx. 8–9 months
 
-> Some repositories are non-public. I only describe non-sensitive technical scope and link public work where available.
+`Flutter` · `React` · `Next.js` · `Django` · `Spring Boot` · `PostgreSQL`
 
-### CoTeacher · Multi-client education platform
+Contributed to education and commerce products across mobile, web, admin, backend, QA, and release workflows. The company repositories are non-public, so the points below describe only non-sensitive technical scope.
 
-`Flutter` · `Next.js` · `React` · `Django` · `PostgreSQL`
+- **CoTeacher:** Aligned mobile, web, admin, and API behavior; reduced a catalog path from **202 to 2 queries** and verified a Django upgrade with **8,210 tests**.
+- **OU:** Connected storefront and admin payment workflows, including guarded recovery for reserved stock, coupons, and points.
+- **SYM:** Improved attendance and notification consistency, and found snapshot races, lock-order risks, and missing authorization during peer review.
 
-- **My contribution:** Worked across mobile, user web, admin, and backend contracts; focused on catalog performance, request correlation, privacy, and pre-release validation.
-- **Evidence:** Reduced a catalog N+1 path from **202 to 2 queries** on a 100-course fixture and verified a Django upgrade with **8,210 tests**.
-
-### SYM · Education operations platform
-
-`Spring Boot` · `React` · `Expo` · `PostgreSQL` · `Redis` · `Jenkins` · `AWS`
-
-- **My contribution:** Improved attendance and student-management consistency, kept domain writes and outbox registration in one transaction, and moved notification side effects to a retryable worker.
-- **Review ownership:** Found preview/commit snapshot races, lock-order risks, and missing authorization in peer PRs; re-reviewed the fixes before approval.
-
-### OU · Commerce & operations
-
-`React` · `Next.js` · `Supabase` · `PostgreSQL` · `Vercel` · `Playwright`
-
-- **My contribution:** Connected storefront and admin workflows around payments, shipping, content, and incident handling.
-- **Reliability work:** Added guarded recovery for reserved stock, coupons, and points; separated sandbox incidents and added fail-closed environment checks for builds and migrations.
-
-### PersonaWalk v2 · Local-first AI usability automation
-
-`Rust` · `Tauri` · `React` · `TypeScript` · `Chromium CDP`
-
-- **My contribution:** Structured the workspace and built the observation → decision → action → safety → artifact → report pipeline.
-- **Verification:** Added repeatable persona/scenario fixtures, structured-output failure handling, navigation-interruption recovery, workspace tests, and run probes.
+## Featured public work
 
 ### [Filient](https://github.com/BlueGreenSWM/Filient_MVP_2) · macOS file automation
 
-`Flutter` · `SQLite` · `BLoC` · `Clean Architecture` · `AWS S3`
+`Flutter` · `SQLite` · `BLoC` · `Clean Architecture`
 
-- **My contribution:** Connected rule, history, and rollback UI to domain flows; fixed destination-contract and recovery-path issues in file operations.
-- **Product work:** Added macOS menu integration, Korean/English localization, user guides, and website improvements.
+- Connected rule, history, and rollback UI to domain flows; fixed destination-contract and recovery-path issues in file operations.
+- Added macOS menu integration, Korean/English localization, user guides, and website improvements.
+
+### [Bridge](https://github.com/2026-quadS-Bridge-Project) · Parent–child mobile product
+
+`Flutter` · `Spring Boot` · `PostgreSQL` · `Firebase`
+
+- Built role-specific flows across two Flutter apps and aligned time, mission, and notification behavior with the Spring API.
+- Clarified base/reward time rules, pairing contracts, ownership checks, and allowed mission state transitions.
 
 ## Education
 
