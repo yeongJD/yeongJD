@@ -37,10 +37,12 @@ The company repositories are non-public. I link the live services and describe o
 - Improved attendance and student-management consistency and moved notification side effects to a retryable transactional outbox.
 - Found snapshot races, lock-order risks, and missing authorization in peer PRs, then re-reviewed the fixes before approval.
 
-## Public code
+## Program & Hackathon Projects
 
-- **[Filient](https://github.com/BlueGreenSWM/Filient_MVP_2)** · macOS file automation with rule execution, history, and rollback · [Website](https://github.com/BlueGreenSWM/Filient_Homepage)
-- **Bridge** · Parent–child product with two Flutter apps and a Spring API · [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [API](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
+- **Filient** · SW Maestro 16th Cohort · AI-powered macOS file automation<br>
+  [Product website](https://filient.ai) · [App repository](https://github.com/BlueGreenSWM/Filient_MVP_2) · [Web repository](https://github.com/BlueGreenSWM/Filient_Homepage)
+- **Bridge** · 2026 GDGoC quadS Hackathon, General Track · Parent–child digital usage management<br>
+  [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [API](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
 
 ## Education
 
