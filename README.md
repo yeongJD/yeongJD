@@ -23,14 +23,14 @@ The company repositories are non-public. I link the live services and describe o
 
 ## Selected products
 
-### [CoTeacher](https://web.coteacher.net) · Financial education
+### [CoTeacher](https://web.coteacher.net) · Financial education platform
 
 `Next.js` · `React` · `TypeScript` · `Django` · `PostgreSQL`
 
 - Aligned mobile, user web, admin, and API behavior around content, payments, review queues, and error states.
 - Reduced a 100-course synthetic catalog fixture from **202 to 2 database queries**, added query-count regression coverage, and validated a Django LTS upgrade against the project's full **8,210-test suite**.
 
-### [SYM · 이지언어](https://xn--oh5bh54khzd.com) · Education operations
+### [SYM · 이지언어](https://xn--oh5bh54khzd.com) · Education operations platform
 
 `React` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Expo`
 
