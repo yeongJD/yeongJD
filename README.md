@@ -1,50 +1,102 @@
 # Dongyeong Jeong (정동영)
 
-> **Product-minded Full-Stack Engineer** · Web · Mobile · Backend · Automation
+> **Product-minded Full-Stack Engineer** · Mobile & Web · Backend & Data · Reliability & Automation
 
-I started with Flutter and React/TypeScript product development and expanded into Django and Spring Boot backends. I work across the full user journey, with particular attention to payment flows, data consistency, privacy, operational tooling, and release reliability.
+I build user-facing products and the systems behind them. My recent work connects mobile, web, admin, and backend surfaces while addressing payment consistency, transactional boundaries, privacy, observability, and release safety.
 
-## Education & experience
+## Background
 
-| | |
-| --- | --- |
-| **Education** | [Information Technology Management (ITM)](https://itm.seoultech.ac.kr/en/about/intro), Seoul National University of Science and Technology — expected graduation: **Feb 2027** |
-| **Dual degree** | SeoulTech–**Northumbria University** dual-degree program |
-| **Experience** | Edtech product development — Freelance Developer (**Aug 2025–Present**) · Software Engineering Intern (**Jul–Aug 2026**) |
-| **Training** | **SW Maestro, 16th cohort** (Apr–Dec 2025) |
-| **Community** | **GDG on Campus in SeoulTech** — App Core & Operations (Sep 2025–Jun 2026) |
-| **Leadership** | President, ITM coding education volunteer club (Mar–Dec 2024) |
+- **Education** — [Information Technology Management (ITM)](https://itm.seoultech.ac.kr/en/about/intro), **SeoulTech** · Mar 2020–Feb 2027 (expected) · Dual-degree program with **Northumbria University**
+- **Experience** — Edtech product development · Freelance Developer (Aug 2025–Present) · Software Engineering Intern (Jul–Aug 2026)
+- **Training** — **SW Maestro, 16th cohort** · Apr–Dec 2025
+- **Teaching & community** — [Flutter Session Instructor](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5), **GDG on Campus in SeoulTech** · App Core & Operations · Sep 2025–Jun 2026
+- **Leadership** — President, ITM coding education volunteer club · Mar–Dec 2024
 
-## Core technologies
+## Selected projects
+
+> Some repositories are non-public. I only describe non-sensitive technical scope and link public work where available.
+
+### CoTeacher · Multi-client education platform
+
+`Flutter` · `Next.js` · `React` · `Django` · `PostgreSQL`
+
+- **My contribution:** Worked across mobile, user web, admin, and backend contracts; focused on catalog performance, request correlation, privacy, and pre-release validation.
+- **Evidence:** Reduced a catalog N+1 path from **202 to 2 queries** on a 100-course fixture and verified a Django upgrade with **8,210 tests**.
+
+### SYM · Education operations platform
+
+`Spring Boot` · `React` · `Expo` · `PostgreSQL` · `Redis` · `Jenkins` · `AWS`
+
+- **My contribution:** Improved attendance and student-management consistency, kept domain writes and outbox registration in one transaction, and moved notification side effects to a retryable worker.
+- **Review ownership:** Found preview/commit snapshot races, lock-order risks, and missing authorization in peer PRs; re-reviewed the fixes before approval.
+
+### OU · Commerce & operations
+
+`React` · `Next.js` · `Supabase` · `PostgreSQL` · `Vercel` · `Playwright`
+
+- **My contribution:** Connected storefront and admin workflows around payments, shipping, content, and incident handling.
+- **Reliability work:** Added guarded recovery for reserved stock, coupons, and points; separated sandbox incidents and added fail-closed environment checks for builds and migrations.
+
+### PersonaWalk v2 · Local-first AI usability automation
+
+`Rust` · `Tauri` · `React` · `TypeScript` · `Chromium CDP`
+
+- **My contribution:** Structured the workspace and built the observation → decision → action → safety → artifact → report pipeline.
+- **Verification:** Added repeatable persona/scenario fixtures, structured-output failure handling, navigation-interruption recovery, workspace tests, and run probes.
+
+### [Filient](https://github.com/BlueGreenSWM/Filient_MVP_2) · macOS file automation
+
+`Flutter` · `SQLite` · `BLoC` · `Clean Architecture` · `AWS S3`
+
+- **My contribution:** Connected rule, history, and rollback UI to domain flows; fixed destination-contract and recovery-path issues in file operations.
+- **Product work:** Added macOS menu integration, Korean/English localization, user guides, and website improvements.
+
+## Technologies used across projects
+
+**Frontend & mobile**
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+</p>
+
+**Backend & data**
+
+<p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+</p>
+
+**Cloud & delivery**
+
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
+</p>
+
+**Quality & automation**
+
+<p>
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+  <img src="https://img.shields.io/badge/Testcontainers-3C3C3C?style=flat-square&logo=testcontainers&logoColor=white" alt="Testcontainers" />
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri" />
 </p>
 
-## Selected engineering work
-
-> Some repositories are private. The descriptions below are limited to non-sensitive technical scope, with public links included where available.
-
-| Project | Scope and contribution |
-| --- | --- |
-| **CoTeacher** · Education platform | Worked across Flutter, Next.js, React admin, and Django. Reduced a catalog N+1 path from **202 to 2 queries** on a 100-course fixture, and strengthened releases with privacy-aware request correlation and fail-closed checks. |
-| **SYM** · Education operations | Worked across Spring Boot, React, and Expo. Kept attendance transactions focused on domain writes while moving notification side effects to a retryable transactional outbox. |
-| **OU** · Commerce & operations | Improved customer and operator flows around payment consistency, recoverable failures, and environment-safe deployment checks. |
-| **PersonaWalk v2** · AI usability automation | Built a Rust/Tauri pipeline for browser observation, structured decisions, safety checks, artifacts, and reports; added repeatable persona and scenario fixtures. |
-| **[Filient](https://github.com/BlueGreenSWM/Filient_MVP_2)** · macOS automation | Connected Flutter UI to rule execution, history, and rollback flows; fixed destination-contract and recovery-path issues in file automation. |
-
-## Engineering approach
+## How I work
 
 - Follow a feature from the user-facing flow to its API contract, data model, operator workflow, and release path.
 - Match verification to risk with focused tests, type checks, builds, reviewable diffs, and post-deployment checks.
