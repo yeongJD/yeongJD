@@ -1,39 +1,48 @@
 # Dongyeong Jeong (정동영)
 
-> **Product-minded Full-Stack Engineer** · Mobile & Web · Backend & Data · Reliability & Automation
+<a href="https://www.linkedin.com/in/yeongj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-I build user-facing products and the systems behind them. I take ownership beyond assigned screens: when a product issue crosses mobile, web, admin, backend, or release boundaries, I investigate it and carry the change through QA and verification.
+> **Full-Stack Product Engineer with a frontend focus**
+
+I build web and mobile products with React, TypeScript, and Flutter, and extend into Django and Spring Boot when a product problem crosses API, data, admin, or release boundaries.
 
 ## Experience
 
 ### EduU Learning
 
-- **Software Engineer Intern** · `2026.07–2026.08`
 - **Contract / Freelance Developer** · `2025–2026` · Approx. 8–9 months
+- **Software Engineer Intern** · `2026.07–2026.08`
 
 `Flutter` · `React` · `Next.js` · `Django` · `Spring Boot` · `PostgreSQL`
 
-Contributed to education and commerce products across mobile, web, admin, backend, QA, and release workflows. The company repositories are non-public, so the points below describe only non-sensitive technical scope.
+Started as a freelance developer and later accepted an on-site internship offer from the same company; the roles overlapped during `2026.07–2026.08`.
 
-- **CoTeacher:** Aligned mobile, web, admin, and API behavior; reduced a catalog path from **202 to 2 queries** and verified a Django upgrade with **8,210 tests**.
-- **OU:** Connected storefront and admin payment workflows, including guarded recovery for reserved stock, coupons, and points.
-- **SYM:** Improved attendance and notification consistency, and found snapshot races, lock-order risks, and missing authorization during peer review.
+During the internship, contributed to **CoTeacher, OU, and SYM** across user web, mobile, admin, backend, QA, and release workflows. For OU, connected storefront and admin payment flows and added guarded recovery for reserved stock, coupons, and points.
 
-## Featured public work
+The company repositories are non-public. I link the live services and describe only non-sensitive work that I directly implemented, verified, or reviewed.
 
-### [Filient](https://github.com/BlueGreenSWM/Filient_MVP_2) · macOS file automation
+## Selected products
 
-`Flutter` · `SQLite` · `BLoC` · `Clean Architecture`
+### [CoTeacher](https://web.coteacher.net) · Financial education platform
 
-- Connected rule, history, and rollback UI to domain flows; fixed destination-contract and recovery-path issues in file operations.
-- Added macOS menu integration, Korean/English localization, user guides, and website improvements.
+`Next.js` · `React` · `TypeScript` · `Django` · `PostgreSQL`
 
-### [Bridge](https://github.com/2026-quadS-Bridge-Project) · Parent–child mobile product
+- **Live:** [web.coteacher.net](https://web.coteacher.net)
+- Aligned mobile, user web, admin, and API behavior around content, payments, review queues, and error states.
+- Reduced a 100-course synthetic catalog fixture from **202 to 2 database queries**, added query-count regression coverage, and validated a Django LTS upgrade against the project's full **8,210-test suite**.
 
-`Flutter` · `Spring Boot` · `PostgreSQL` · `Firebase`
+### [Easy Language (이지언어)](https://xn--oh5bh54khzd.com) · Education operations platform
 
-- Built role-specific flows across two Flutter apps and aligned time, mission, and notification behavior with the Spring API.
-- Clarified base/reward time rules, pairing contracts, ownership checks, and allowed mission state transitions.
+`React` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Expo`
+
+- **Live:** [이지언어.com](https://xn--oh5bh54khzd.com)
+- Improved attendance and student-management consistency and moved notification side effects to a retryable transactional outbox.
+- Found snapshot races, lock-order risks, and missing authorization in peer PRs, then re-reviewed the fixes before approval.
+
+## Public code
+
+- **[Filient](https://github.com/BlueGreenSWM/Filient_MVP_2)** · macOS file automation with rule execution, history, and rollback · [Website](https://github.com/BlueGreenSWM/Filient_Homepage)
+- **Bridge** · Parent–child product with two Flutter apps and a Spring API · [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [API](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
 
 ## Education
 
@@ -59,7 +68,7 @@ Contributed to education and commerce products across mobile, web, admin, backen
 - **App Core & Operations** · GDG on Campus in SeoulTech · `2025.09–2026.06`
 - **President** · ITM Coding Education Volunteer Club · `2024.03–2024.12`
 
-## Technologies used across projects
+## Selected technologies
 
 **Frontend & mobile**
 
@@ -68,7 +77,6 @@ Contributed to education and commerce products across mobile, web, admin, backen
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
 </p>
 
 **Backend & data**
@@ -79,29 +87,16 @@ Contributed to education and commerce products across mobile, web, admin, backen
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
 </p>
 
-**Cloud & delivery**
+**Delivery & quality**
 
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
-</p>
-
-**Quality & automation**
-
-<p>
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-  <img src="https://img.shields.io/badge/Testcontainers-3C3C3C?style=flat-square&logo=testcontainers&logoColor=white" alt="Testcontainers" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri" />
 </p>
 
 ## How I work
@@ -112,6 +107,8 @@ Contributed to education and commerce products across mobile, web, admin, backen
 - Treat concurrency, permissions, privacy, observability, and recovery as product requirements.
 
 ## AI-assisted development
+
+My AI product work includes **PersonaWalk v2**, a local-first usability automation prototype built with Rust, Tauri, React, and Chromium CDP. I implemented its observation → decision → action → safety → artifact → report pipeline.
 
 I use AI to accelerate repository exploration, implementation drafts, and review. I remain responsible for validating the source of truth, the resulting diff, and the real user outcome.
 
