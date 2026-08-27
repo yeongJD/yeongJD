@@ -2,14 +2,18 @@
 
 > **Product-minded Full-Stack Engineer** · Mobile & Web · Backend & Data · Reliability & Automation
 
-I build user-facing products and the systems behind them. My recent work connects mobile, web, admin, and backend surfaces while addressing payment consistency, transactional boundaries, privacy, observability, and release safety.
+I build user-facing products and the systems behind them. I take ownership beyond assigned screens: when a product issue crosses mobile, web, admin, backend, or release boundaries, I investigate it and carry the change through QA and verification.
 
 ## Background
 
 - **Education** — [Information Technology Management (ITM)](https://itm.seoultech.ac.kr/en/about/intro), **SeoulTech** · Mar 2020–Feb 2027 (expected) · Dual-degree program with **Northumbria University**
-- **Experience** — Edtech product development · Freelance Developer (Aug 2025–Present) · Software Engineering Intern (Jul–Aug 2026)
-- **Training** — **SW Maestro, 16th cohort** · Apr–Dec 2025
-- **Teaching & community** — [Flutter Session Instructor](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5), **GDG on Campus in SeoulTech** · App Core & Operations · Sep 2025–Jun 2026
+- **Experience** — Contract/Freelance Developer · late 2025–first half of 2026 (approx. 8–9 months) · **3 client projects delivered**; Startup product-development internship · Jul–Aug 2026
+- **Programs** — **SW Maestro, 16th cohort** (completed) · Apr–Dec 2025; [**Promising Student Startup Team 300+ (U300+) — Growth Track**](https://u300.kr/about/u300) · 2026–Present
+- **Teaching**
+  - Coding Education Assistant Instructor for middle and high school students, Samsung Dream Scholarship Foundation-linked program · May 2026–Present
+  - AI Startup Education PBL Instructor, **AI School Up** at AND Center (Seoul Metropolitan Nowon Youth Career Experience Center) · Jun–Aug 2026
+  - [Flutter Session Instructor](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5), **GDG on Campus in SeoulTech** · Nov 2025
+- **Community** — **GDG on Campus in SeoulTech** · App Core & Operations · Sep 2025–Jun 2026
 - **Leadership** — President, ITM coding education volunteer club · Mar–Dec 2024
 
 ## Selected projects
@@ -98,6 +102,7 @@ I build user-facing products and the systems behind them. My recent work connect
 
 ## How I work
 
+- Take ownership of product problems beyond the initially assigned implementation boundary.
 - Follow a feature from the user-facing flow to its API contract, data model, operator workflow, and release path.
 - Match verification to risk with focused tests, type checks, builds, reviewable diffs, and post-deployment checks.
 - Treat concurrency, permissions, privacy, observability, and recovery as product requirements.
