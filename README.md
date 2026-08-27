@@ -13,7 +13,7 @@ I build web and mobile products with React, TypeScript, and Flutter, and extend 
 - **Contract / Freelance Developer** · `2025–2026` · Approximately 8–9 months in total
 - **Software Engineer Intern** · `2026.07–2026.08`
 
-Started as a freelance developer, then joined on-site as an intern; the roles overlapped during `2026.07–2026.08`. During the internship, worked on **CoTeacher, OU, and SYM**. Across both engagements, work spanned web, mobile, admin, API contracts, QA, and release validation—including OU payment recovery and operator tooling.
+Started as a freelance developer, then joined on-site as an intern; the roles overlapped in `2026.07–2026.08`. During the internship, worked on **CoTeacher, OU, and SYM**; across both engagements, work covered web, mobile, admin, APIs, QA, and releases—including OU payment recovery and operator tooling.
 
 Company source code is non-public; the links below point to live services.
 
