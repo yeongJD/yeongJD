@@ -13,29 +13,27 @@ I build web and mobile products with React, TypeScript, and Flutter, and extend 
 - **Contract / Freelance Developer** · `2025–2026` · Approximately 8–9 months in total
 - **Software Engineer Intern** · `2026.07–2026.08`
 
-Started as a freelance developer and later accepted an on-site internship offer from the same company; the roles overlapped during `2026.07–2026.08`.
+Started as a freelance developer, then joined on-site as an intern; the roles overlapped during `2026.07–2026.08`. During the internship, worked on **CoTeacher, OU, and SYM**. Across both engagements, work spanned web, mobile, admin, API contracts, QA, and release validation—including OU payment recovery and operator tooling.
 
-During the internship, worked on **CoTeacher, OU, and SYM**. Across the freelance and internship engagements, work spanned React/Next.js user and admin interfaces, Flutter/Expo mobile flows, Django/Spring Boot API contracts, QA, and release validation—including payment recovery and operator tooling for OU.
+The company repositories are non-public; the links below point to live services.
 
-The company repositories are non-public; the links below point to live services. The descriptions distinguish work I implemented, verified, or reviewed.
-
-## Selected products
+## Selected Product Work
 
 ### [CoTeacher](https://web.coteacher.net) · Financial education platform
 
 `Next.js` · `React` · `TypeScript` · `Django` · `PostgreSQL`
 
-- Implemented and verified content, payment, review-queue, and error-state flows across the React/Next.js user web, Flutter mobile app, React admin, and Django API.
-- On a 100-course synthetic fixture, reduced catalog query count from **202 to 2** and added regression coverage; verified Django 5.2 LTS compatibility by running the existing **8,210-test backend suite**.
+- **Product delivery:** Implemented and verified content, payment, review-queue, and error-state flows across web, mobile, admin, and APIs.
+- **Performance & validation:** On a 100-course synthetic fixture, reduced catalog query count from **202 to 2** and added regression coverage; verified Django 5.2 LTS compatibility by running the existing **8,210-test backend suite**.
 
 ### [SYM · 이지언어](https://xn--oh5bh54khzd.com) · Education operations platform
 
 `React` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Expo`
 
-- Implemented attendance and student-management flows across React/Expo clients and Spring APIs; kept domain writes and outbox registration in one transaction, then moved notification delivery to a retryable worker.
-- During peer review, identified preview/commit snapshot drift, inconsistent season-to-student lock ordering, and a missing history-endpoint authorization guard; re-reviewed the fixes before approval.
+- **Reliability:** Kept domain writes and outbox registration in one transaction, then moved notification delivery to a retryable worker.
+- **Code review:** Identified preview/commit snapshot drift, inconsistent season-to-student lock ordering, and a missing history-endpoint authorization guard; re-reviewed the fixes before approval.
 
-## Additional Projects
+## Selected Program Projects
 
 - **Filient** · SW Maestro 16th Cohort · AI-powered macOS file automation<br>
   Built Flutter rule, history, and rollback flows; added macOS integration, localization, and product guides.<br>
@@ -43,30 +41,6 @@ The company repositories are non-public; the links below point to live services.
 - **Bridge** · 2026 GDGoC quadS Hackathon, General Track · Parent–child digital usage management<br>
   Built role-specific flows across two Flutter apps and aligned time, mission, and notification contracts with Spring APIs.<br>
   [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [API](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
-
-## Education
-
-- [**SeoulTech ITM**](https://itm.seoultech.ac.kr/en/about/intro) · `2020.03–2027.02 (Expected)` · Dual degree with **Northumbria University**
-
-## Programs & Activities
-
-### Programs
-
-- **SW Maestro · 16th Cohort** · `2025.04–2025.12` · Completed
-- [**Promising Student Startup Team 300+ (U300+)**](https://u300.kr/about/u300) · Growth Track · `2026–Present`
-
-### Teaching
-
-- **Coding Education Assistant Instructor** · Samsung Dream Scholarship Foundation-linked program · `2026.05–Present`<br>
-  Supported coding education for middle and high school students.
-- **AI Startup Education PBL Instructor** · AI School Up, AND Center · `2026.06–2026.08`<br>
-  Led project-based AI entrepreneurship education.
-- [**Flutter Session Instructor**](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5) · GDG on Campus in SeoulTech · `2025.11`
-
-### Community & Leadership
-
-- **App Core & Operations** · GDG on Campus in SeoulTech · `2025.09–2026.06`
-- **President** · ITM Coding Education Volunteer Club · `2024.03–2024.12`
 
 ## Selected technologies
 
@@ -99,12 +73,34 @@ The company repositories are non-public; the links below point to live services.
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
 </p>
 
+## Education
+
+- [**SeoulTech ITM**](https://itm.seoultech.ac.kr/en/about/intro) · `2020.03–2027.02 (Expected)` · Dual degree with **Northumbria University**
+
+## Programs & Activities
+
+### Programs
+
+- **SW Maestro · 16th Cohort** · `2025.04–2025.12` · Completed
+- [**Promising Student Startup Team 300+ (U300+)**](https://u300.kr/about/u300) · Growth Track · `2026–Present`
+
+### Teaching
+
+- **Coding Education Assistant Instructor** · Samsung Dream Scholarship Foundation-linked program · `2026.05–Present`<br>
+  Supported coding education for middle and high school students.
+- **AI Startup Education PBL Instructor** · AI School Up, AND Center · `2026.06–2026.08`<br>
+  Led project-based AI entrepreneurship education.
+- [**Flutter Session Instructor**](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5) · GDG on Campus in SeoulTech · `2025.11`
+
+### Community & Leadership
+
+- **App Core & Operations** · GDG on Campus in SeoulTech · `2025.09–2026.06`
+- **President** · ITM Coding Education Volunteer Club · `2024.03–2024.12`
+
 ## How I work
 
-- Take ownership of product problems beyond the initially assigned implementation boundary.
-- Follow a feature from the user-facing flow to its API contract, data model, operator workflow, and release path.
-- Match verification to risk with focused tests, type checks, builds, reviewable diffs, and post-deployment checks.
-- Treat concurrency, permissions, privacy, observability, and recovery as product requirements.
+- Own product problems end to end—from user flow and API contract to operator workflow and release verification.
+- Match verification to risk through focused tests, type checks, builds, reviewable diffs, and post-deployment checks.
 
 ## AI-assisted development
 
