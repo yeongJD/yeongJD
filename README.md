@@ -4,17 +4,12 @@
 
 I build user-facing products and the systems behind them. I take ownership beyond assigned screens: when a product issue crosses mobile, web, admin, backend, or release boundaries, I investigate it and carry the change through QA and verification.
 
-## Background
+## Experience
 
-- **Education** — [Information Technology Management (ITM)](https://itm.seoultech.ac.kr/en/about/intro), **SeoulTech** · Mar 2020–Feb 2027 (expected) · Dual-degree program with **Northumbria University**
-- **Experience** — Contract/Freelance Developer · late 2025–first half of 2026 (approx. 8–9 months) · **3 client projects delivered**; Startup product-development internship · Jul–Aug 2026
-- **Programs** — **SW Maestro, 16th cohort** (completed) · Apr–Dec 2025; [**Promising Student Startup Team 300+ (U300+) — Growth Track**](https://u300.kr/about/u300) · 2026–Present
-- **Teaching**
-  - Coding Education Assistant Instructor for middle and high school students, Samsung Dream Scholarship Foundation-linked program · May 2026–Present
-  - AI Startup Education PBL Instructor, **AI School Up** at AND Center (Seoul Metropolitan Nowon Youth Career Experience Center) · Jun–Aug 2026
-  - [Flutter Session Instructor](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5), **GDG on Campus in SeoulTech** · Nov 2025
-- **Community** — **GDG on Campus in SeoulTech** · App Core & Operations · Sep 2025–Jun 2026
-- **Leadership** — President, ITM coding education volunteer club · Mar–Dec 2024
+- **Contract / Freelance Developer** · `2025–2026` · Approx. 8–9 months<br>
+  Delivered **3 client projects** across commerce and education products.
+- **Startup Product Development Intern** · `2026.07–2026.08`<br>
+  Worked across user-facing features, operations tools, backend contracts, QA, and release verification.
 
 ## Selected projects
 
@@ -54,6 +49,30 @@ I build user-facing products and the systems behind them. I take ownership beyon
 
 - **My contribution:** Connected rule, history, and rollback UI to domain flows; fixed destination-contract and recovery-path issues in file operations.
 - **Product work:** Added macOS menu integration, Korean/English localization, user guides, and website improvements.
+
+## Education
+
+- [**SeoulTech ITM**](https://itm.seoultech.ac.kr/en/about/intro) · `2020.03–2027.02 (Expected)` · Dual degree with **Northumbria University**
+
+## Programs & Activities
+
+### Programs
+
+- **SW Maestro · 16th Cohort** · `2025.04–2025.12` · Completed
+- [**Promising Student Startup Team 300+ (U300+)**](https://u300.kr/about/u300) · Growth Track · `2026–Present`
+
+### Teaching
+
+- **Coding Education Assistant Instructor** · Samsung Dream Scholarship Foundation-linked program · `2026.05–Present`<br>
+  Supported coding education for middle and high school students.
+- **AI Startup Education PBL Instructor** · AI School Up, AND Center · `2026.06–2026.08`<br>
+  Led project-based AI entrepreneurship education.
+- [**Flutter Session Instructor**](https://github.com/GDGOC-SeoulTech/5th_Flutter_Session_5) · GDG on Campus in SeoulTech · `2025.11`
+
+### Community & Leadership
+
+- **App Core & Operations** · GDG on Campus in SeoulTech · `2025.09–2026.06`
+- **President** · ITM Coding Education Volunteer Club · `2024.03–2024.12`
 
 ## Technologies used across projects
 
