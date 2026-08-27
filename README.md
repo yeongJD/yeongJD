@@ -10,14 +10,14 @@ I build web and mobile products with React, TypeScript, and Flutter, and extend 
 
 ### EduU Learning · Software Engineer
 
-- **Contract / Freelance Developer** · `2025–2026` · Approx. 8–9 months
+- **Contract / Freelance Developer** · `2025–2026` · Approximately 8–9 months in total
 - **Software Engineer Intern** · `2026.07–2026.08`
 
 Started as a freelance developer and later accepted an on-site internship offer from the same company; the roles overlapped during `2026.07–2026.08`.
 
-Across both engagements, contributed to **CoTeacher, OU, and SYM** across frontend-led product work, mobile, admin, backend contracts, QA, and releases—including payment recovery and operator tooling for OU.
+During the internship, worked on **CoTeacher, OU, and SYM**. Across the freelance and internship engagements, work spanned React/Next.js user and admin interfaces, Flutter/Expo mobile flows, Django/Spring Boot API contracts, QA, and release validation—including payment recovery and operator tooling for OU.
 
-The company repositories are non-public. I link the live services and describe only non-sensitive work that I directly implemented, verified, or reviewed.
+The company repositories are non-public; the links below point to live services. The descriptions distinguish work I implemented, verified, or reviewed.
 
 ## Selected products
 
@@ -25,15 +25,15 @@ The company repositories are non-public. I link the live services and describe o
 
 `Next.js` · `React` · `TypeScript` · `Django` · `PostgreSQL`
 
-- Aligned mobile, user web, admin, and API behavior around content, payments, review queues, and error states.
-- Reduced a 100-course synthetic catalog fixture from **202 to 2 database queries**, added query-count regression coverage, and validated a Django LTS upgrade against the project's full **8,210-test suite**.
+- Implemented and verified content, payment, review-queue, and error-state flows across the React/Next.js user web, Flutter mobile app, React admin, and Django API.
+- On a 100-course synthetic fixture, reduced catalog query count from **202 to 2** and added regression coverage; verified Django 5.2 LTS compatibility by running the existing **8,210-test backend suite**.
 
 ### [SYM · 이지언어](https://xn--oh5bh54khzd.com) · Education operations platform
 
 `React` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Expo`
 
-- Improved attendance and student-management consistency and moved notification side effects to a retryable transactional outbox.
-- Found snapshot races, lock-order risks, and missing authorization in peer PRs, then re-reviewed the fixes before approval.
+- Implemented attendance and student-management flows across React/Expo clients and Spring APIs; kept domain writes and outbox registration in one transaction, then moved notification delivery to a retryable worker.
+- During peer review, identified preview/commit snapshot drift, inconsistent season-to-student lock ordering, and a missing history-endpoint authorization guard; re-reviewed the fixes before approval.
 
 ## Additional Projects
 
