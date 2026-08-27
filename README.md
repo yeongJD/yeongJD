@@ -8,16 +8,14 @@ I build web and mobile products with React, TypeScript, and Flutter, and extend 
 
 ## Experience
 
-### EduU Learning
+### EduU Learning · Software Engineer
 
 - **Contract / Freelance Developer** · `2025–2026` · Approx. 8–9 months
 - **Software Engineer Intern** · `2026.07–2026.08`
 
-`Flutter` · `React` · `Next.js` · `Django` · `Spring Boot` · `PostgreSQL`
-
 Started as a freelance developer and later accepted an on-site internship offer from the same company; the roles overlapped during `2026.07–2026.08`.
 
-During the internship, contributed to **CoTeacher, OU, and SYM** across user web, mobile, admin, backend, QA, and release workflows. For OU, connected storefront and admin payment flows and added guarded recovery for reserved stock, coupons, and points.
+Across both engagements, contributed to **CoTeacher, OU, and SYM** across frontend-led product work, mobile, admin, backend contracts, QA, and releases—including payment recovery and operator tooling for OU.
 
 The company repositories are non-public. I link the live services and describe only non-sensitive work that I directly implemented, verified, or reviewed.
 
@@ -37,11 +35,13 @@ The company repositories are non-public. I link the live services and describe o
 - Improved attendance and student-management consistency and moved notification side effects to a retryable transactional outbox.
 - Found snapshot races, lock-order risks, and missing authorization in peer PRs, then re-reviewed the fixes before approval.
 
-## Program & Hackathon Projects
+## Additional Projects
 
 - **Filient** · SW Maestro 16th Cohort · AI-powered macOS file automation<br>
+  Built Flutter rule, history, and rollback flows; added macOS integration, localization, and product guides.<br>
   [Product website](https://filient.ai) · [App repository](https://github.com/BlueGreenSWM/Filient_MVP_2) · [Web repository](https://github.com/BlueGreenSWM/Filient_Homepage)
 - **Bridge** · 2026 GDGoC quadS Hackathon, General Track · Parent–child digital usage management<br>
+  Built role-specific flows across two Flutter apps and aligned time, mission, and notification contracts with Spring APIs.<br>
   [Parent app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Parent) · [Child app](https://github.com/2026-quadS-Bridge-Project/Quad-S-Team12-App-Child) · [API](https://github.com/2026-quadS-Bridge-Project/2026-Bridge-quadS)
 
 ## Education
